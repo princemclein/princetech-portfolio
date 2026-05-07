@@ -1379,7 +1379,10 @@
    RESPONSIVE — MOBILE (max 480px)
    ═══════════════════════════════ */
 @media (max-width: 480px) {
-
+  .gallery-grid .gallery-img:nth-child(n+5) {
+    display: none;
+  }
+  
   /* ── PAGE padding ── */
   .page, .certs-page, .gallery-page,
   .exp-page, .projects-page, .stack-page {
